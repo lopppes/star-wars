@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- titulo -->
+
+    <title>Star Wars - Slider</title>
+     
+    <!-- fontes -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap"
+    rel="stylesheet"/>
+
+    <!-- link css -->
+
+    <link rel="stylesheet" href="./src/style.css"/>
+    <link rel="stylesheet" href="./src/responsivo.css"/>
+
+    <!-- favicon -->
+
+    <link rel="shortcut icon"
+      href="./imgs/Star_Wars_Logo.png"
+      type="image/x-icon"/>
+    
+  </head>
+
+  <body>
+
+    <!-- header  -->
+
+    <header class="cabecalho">
+      <img src="./imgs/Star_Wars_Logo.png" alt="star wras" class="star-wars-logo"/>
+      
+    </header>
+
+    <!-- main -->
+
+    <main class="star-slider">
+
+    <!-- button voltar -->
+
+      <button class="btn-seta btn-voltar" id="btn-voltar">
+        <i class="fa-solid fa-arrow-left"></i>
+      </button>
+
+      <!-- lista -->
+
+      <ul class="lista-wars">
+        <li class="cartao selecionado fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Luke Skywalker</h2>
+            <p class="vida">HP 9000</p>
+          </div>
+
+          <div class="container-imagem">
+            <img
+              src="./imgs/luke-skywalker.png"
+              alt="Luke Skywalker" class="imagem-wars"/>
+          </div>
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição:</h3>
+            <p class="texto">
+              Luke Skywalker é um protagonista famoso de Star Wars, que passa de um fazendeiro a um herói galáctico ao se tornar um Cavaleiro Jedi e lutar contra o Império Galáctico. Sua história de coragem e autodescoberta é uma parte fundamental do universo Star Wars.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-2">
+          <div class="informacoes">
+            <h2 class="nome">Obi-Wan Kenobi</h2>
+            <p class="vida">HP 10.000</p>
+          </div>
+
+          <div class="container-imagem">
+            <img
+              src="imgs/obi-wan.png"
+              alt="Obi-Wan Kenobi"
+              class="imagem-wars"/>
+          </div>
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição:</h3>
+            <p class="texto">
+              Obi-Wan Kenobi, mentor de Luke em Star Wars, foi um Jedi experiente. Treinou Anakin, que virou Darth Vader. Em Tatooine, guiou Luke para se tornar Jedi e lutar contra o Império, revelando segredos importantes. Sua conexão com a Força moldou a galáxia.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-3">
+          <div class="informacoes">
+            <h2 class="nome">Anakin Skywalker</h2>
+            <p class="vida">HP 12.000</p>
+          </div>
+
+          <div class="container-imagem">
+            <img
+              src="imgs/Anakin_Skywalker.webp"
+              alt="Mewtwo"
+              class="imagem-wars"
+            />
+          </div>
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição:</h3>
+            <p class="texto">
+              Anakin Skywalker, personagem central em Star Wars, é um jovem prodígio sensível à Força. Treinado como Jedi por Obi-Wan, seu desejo de poder o leva ao lado sombrio, tornando-se Darth Vader. Sua jornada dramática de queda e redenção é um pilar na saga, impactando profundamente a galáxia.
+            </p>
+          </div>
+        </li>
+      </ul>
+
+      <!-- seta avançar -->
+
+      <button class="btn-seta" id="btn-avancar">
+        <i class="fa-solid fa-arrow-right"></i>
+      </button>
+
+    </main>
+    
+    <!-- link js -->
+
+    <script src="src/app.js"></script>
+
+    <!-- link font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+  </body>
+</html>
